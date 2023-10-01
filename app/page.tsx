@@ -140,7 +140,6 @@ export default function IndexPage() {
                             >
                               <Controls />
                               <MiniMap />
-                              <Background variant={BackgroundVariant.Lines} gap={15} size={1} />
                             </ReactFlow>
                         </div>
                       </ReactFlowProvider>

@@ -62,13 +62,14 @@ def get_graph_data():
             messages=[
                 {
                     "role": "user",
-                    "content": f"Help me understand following by describing as a detailed knowledge graph: {user_input}",
+                    "content": f"I want to understand the following content by visualizing it as a knowledge graph: '{user_input}'. Please use the provided color specifications."
+,
                 }
             ],
             functions=[
                 {
                     "name": "knowledge_graph",
-                    "description": "Generate a knowledge graph with entities and relationships. Use the colors to help differentiate between different node or edge types/categories. Always provide light pastel colors that work well with black font. Each node is about 300px wide and 50px tall. The nodes should have positions that makes the graph readable and understandable. The main node should be in the center and the other nodes around it in a radial pattern. Space out the nodes and edges so that the graph is not cluttered. All nodes must connect to atleast one other node.",
+                    "description": "Construct a knowledge graph from articles with distinct nodes each measuring 300px by 50px. Centralize the main node and arrange others radially. Ensure clarity by spacing nodes and edges. Every node must link to another. The edges should be named with predicates. Highlight: Main Points (HEX: 483698), Sub Points (HEX: 005EB8), Details (HEX: 470A68), Extra Info (HEX: 0091DA), References (HEX: 6D2077), and Misc. (HEX: 00A3A1). Adjust text color for legibility on dark nodes.",
                     "parameters": {
                         "type": "object",
                         "properties": {

@@ -1,4 +1,4 @@
-# InstaGraph 🌐 Next JS 
+# InstaGraph
 
 Original project and inspiration: [<a href="https://twitter.com/yoheinakajima">Yohei Nakajima</a>](https://twitter.com/yoheinakajima) - [<a href="https://github.com/yoheinakajima/instagraph">Instagraph</a>](https://github.com/yoheinakajima/instagraph)
 
@@ -10,11 +10,11 @@ Project made with:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/waseemhnyc/instagraph-nextjs
+git clone https://github.com/frankwiersma/instagraph
 ```
 2. Navigate to the project directory
 ```bash
-cd instagraph-nextjs
+cd instagraph
 ```
 3. Install packages
 ```bash
@@ -36,6 +36,3 @@ Web Interface
 - Type your text or paste a URL in the input box.
 - Click "Submit" and wait for the magic to happen!
 
-## License 📝
-
-MIT License. See LICENSE for more information.
